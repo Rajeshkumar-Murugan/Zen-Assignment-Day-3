@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+    <ul>
+        <li>
+            <h2>The for loop:</h2>
+            <p>
+            for (let index=0; index < someArray.length; index++) {
+            const elem = someArray[index];
+            // ···
+            }
+            </p>
+        </li>
+        <li>    
+            <h2>The for-in loop:</h2>
+            <p>
+            for (const key in someArray) {
+            console.log(key);
+            }
+            </p>
+        </li>
+
+        <li>
+            <h2>The Array method .forEach():</h2>
+            <p>
+            someArray.forEach((elem, index) => {
+            console.log(elem, index);
+            });
+            </p>
+        </li>
+
+        <li>
+            <h2> The for-of loop:</h2>
+            
+            <p>
+            for (const elem of someArray) {
+            console.log(elem);
+            }
+            </p>
+        </li>    
+</ul>
+
+<p>Please check the console for Resume Json file and (for, for in, for of, forEach) iteration </p>
+</body>
+</html>
